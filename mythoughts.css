@@ -1,0 +1,14 @@
+h1{
+    text-align: center;
+    color: aliceblue;
+    font-family: cursive;
+}
+html{
+    background-color: darkgreen;
+}
+
+p1{
+    font: bolder;
+    color: aliceblue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
