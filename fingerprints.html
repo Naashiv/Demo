@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dipesh Jaisi Poudel | My Fingerprints</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container header-container">
+            <a href="about.html" class="logo">Dipesh Jaisi Poudel</a>
+            <nav>
+                <button class="hamburger"><i class="fas fa-bars"></i></button>
+                <ul class="nav-menu">
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="fingerprints.html" class="active">My Fingerprints</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="repositories.html">Repositories</a></li>
+                    <li><a href="teaching.html">Teaching</a></li>
+                    <li><a href="cv.html">CV</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero fingerprints-section" id="fingerprints">
+            <div class="container">
+                <div class="hero-content">
+                    <h1>My Fingerprints</h1>
+                    <h2>Skills & Expertise</h2>
+                    <p>Highlighting my key strengths and areas of expertise in structural engineering and related fields.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="fingerprints-section container">
+            <div class="fingerprints-grid">
+                <div class="fingerprint-item" data-percent="80">
+                    <div class="progress-circle">
+                        <svg viewBox="0 0 60 60"> <circle class="background" cx="30" cy="30" r="27"></circle> <circle class="progress" cx="30" cy="30" r="27"></circle> </svg>
+                    </div>
+                    <h4>Structural Analysis</h4>
+                    <p class="skill-percentage">80%</p> <p>[e.g., "Proficient in linear and non-linear analysis of complex structures."]</p>
+                </div>
+
+                <div class="fingerprint-item" data-percent="75">
+                    <div class="progress-circle">
+                        <svg viewBox="0 0 60 60">
+                            <circle class="background" cx="30" cy="30" r="27"></circle>
+                            <circle class="progress" cx="30" cy="30" r="27"></circle>
+                        </svg>
+                    </div>
+                    <h4>Computational Mechanics</h4>
+                    <p class="skill-percentage">75%</p>
+                    <p>[e.g., "Finite element modeling and optimization algorithms."]</p>
+                </div>
+
+                <div class="fingerprint-item" data-percent="90">
+                    <div class="progress-circle">
+                        <svg viewBox="0 0 60 60">
+                            <circle class="background" cx="30" cy="30" r="27"></circle>
+                            <circle class="progress" cx="30" cy="30" r="27"></circle>
+                        </svg>
+                    </div>
+                    <h4>Seismic Design</h4>
+                    <p class="skill-percentage">90%</p>
+                    <p>[e.g., "Expertise in earthquake-resistant design principles and codes."]</p>
+                </div>
+
+                <div class="fingerprint-item" data-percent="70">
+                    <div class="progress-circle">
+                        <svg viewBox="0 0 60 60">
+                            <circle class="background" cx="30" cy="30" r="27"></circle>
+                            <circle class="progress" cx="30" cy="30" r="27"></circle>
+                        </svg>
+                    </div>
+                    <h4>Material Science</h4>
+                    <p class="skill-percentage">70%</p>
+                    <p>[e.g., "Knowledge of advanced materials for infrastructure resilience."]</p>
+                </div>
+                </div>
+        </section>
+    </main>
+
+    <footer id="contact">
+        <div class="container">
+        <div class="social-links">
+                <a href="mailto:your.email@university.edu"><i class="fas fa-envelope"></i></a>
+                <a href="https://www.linkedin.com/in/dipesh-jaisi-poudel-607b641b6/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                <a href="https://orcid.org/0009-0001-5000-9009" target="_blank"><i class="fab fa-orcid"></i></a>
+                <a href="https://github.com/dpoudel18" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://twitter.com/yourprofile" target="_blank"><i class="fab fa-twitter"></i></a>
+                <a href="https://www.facebook.com/dipesh.jaisipoudel" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://www.instagram.com/nana_lahio/" target="_blank"><i class="fab fa-instagram"></i></a>
+            </div>
+            <p class="copyright">© <span id="year"></span> Dipesh Jaisi Poudel. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
